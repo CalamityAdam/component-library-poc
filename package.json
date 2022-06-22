@@ -1,11 +1,27 @@
 {
   "name": "component-library-poc",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "author": "Adam Sisk",
   "license": "MIT",
-  "dependencies": {
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
     "@types/react": "^18.0.14",
+    "add": "^2.0.6",
     "react": "^18.2.0",
-    "typescript": "^4.7.4"
-  }
+    "rollup": "^2.75.7",
+    "rollup-plugin-dts": "^4.2.2",
+    "typescript": "^4.7.4",
+    "yarn": "^1.22.19"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
