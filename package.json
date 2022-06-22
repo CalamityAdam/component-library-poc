@@ -1,0 +1,11 @@
+{
+  "name": "component-library-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^18.0.14",
+    "react": "^18.2.0",
+    "typescript": "^4.7.4"
+  }
+}
