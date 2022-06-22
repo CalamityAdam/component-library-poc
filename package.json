@@ -1,5 +1,8 @@
 {
-  "name": "component-library-poc",
+  "name": "@calamityadam/component-library-poc",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/calamityadam"
+  },
   "version": "0.1.0",
   "author": "Adam Sisk",
   "license": "MIT",
