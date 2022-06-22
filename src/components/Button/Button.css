@@ -1,0 +1,7 @@
+.button {
+  box-shadow: 2px 2px 0 #0dba2f,
+              4px 4px 0 #0d98ba,
+              6px 6px 0 #ba0d98,
+              8px 8px #ba2f0d;
+  font-size: 60px;
+}
