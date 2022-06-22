@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/calamityadam"
   },
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Adam Sisk",
   "license": "MIT",
   "scripts": {
@@ -16,13 +16,17 @@
     "@types/react": "^18.0.14",
     "add": "^2.0.6",
     "postcss": "^8.4.14",
-    "react": "^18.2.0",
     "rollup": "^2.75.7",
     "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4",
     "yarn": "^1.22.19"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
